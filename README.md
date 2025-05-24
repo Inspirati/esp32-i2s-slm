@@ -1,8 +1,8 @@
-# See branch esp32-i2s-slm_pio-vscode for new version featuring support for platformio and vscode.
+# Branch esp32-i2s-slm_pio-vscode featuring support for platformio and vscode.
 
-<a href="https://github.com/Inspirati/esp32-i2s-slm/branches/esp32-i2s-slm_pio-vscode">esp32-i2s-slm with PlatformIO & vscode support</a>
+<a href="https://github.com/Inspirati/esp32-i2s-slm/tree/esp32-i2s-slm_pio-vscode">esp32-i2s-slm with PlatformIO & vscode support</a>
 
-The new branch also features limited console support and various alternative options for the IIR filter algorithm.
+This new branch also features limited console support and various alternative options for the IIR filter algorithm.
 
 Developed and tested on an ESP32 D1 mini with 64x48 OLED shield using an INMP441 microphone and build chain (et-al):
 
