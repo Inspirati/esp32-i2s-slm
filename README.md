@@ -2,7 +2,7 @@
 
 <a href="https://github.com/Inspirati/esp32-i2s-slm/tree/esp32-i2s-slm_pio-vscode">esp32-i2s-slm with PlatformIO & vscode support</a>
 
-This new branch also features limited console support and various alternative options for the IIR filter algorithm.
+This new branch also features limited console support and various alternative options for the IIR filter algorithm, including a generic ANSI C - along with an option to utilise functions from the espressif esp-dsp library.
 
 Developed and tested on an ESP32 D1 mini with 64x48 OLED shield using an INMP441 microphone and build chain (et-al):
 
@@ -18,7 +18,7 @@ Including dependency:
  - ESP8266 and ESP32 OLED driver for SSD1306 displays @ 4.6.1+sha.f90368e
 
 --------------------------------------------------------------------------------
-The following content is preservered from the <a href="https://github.com/ikostoski/esp32-i2s-slm">original</a> author, Ivan Kostoski
+The following is preserved from the <a href="https://github.com/ikostoski/esp32-i2s-slm">original</a> author, Ivan Kostoski
 --------------------------------------------------------------------------------
 
 # Sound Level Meter with Arduino IDE, ESP32 and I<sup>2</sup>S MEMS microphone
