@@ -1,8 +1,8 @@
-# See branch esp32-i2s-slm_pio-vscode for new version featuring support for platformio and vscode.
+# Branch esp32-i2s-slm_pio-vscode featuring support for platformio and vscode.
 
 <a href="https://github.com/Inspirati/esp32-i2s-slm/tree/esp32-i2s-slm_pio-vscode">esp32-i2s-slm with PlatformIO & vscode support</a>
 
-The new branch also features limited console support and various alternative options for the IIR filter algorithm.
+This new branch also features limited console support and various alternative options for the IIR filter algorithm, including a generic ANSI C - along with an option to utilise functions from the espressif esp-dsp library.
 
 Developed and tested on an ESP32 D1 mini with 64x48 OLED shield using an INMP441 microphone and build chain (et-al):
 
@@ -18,7 +18,7 @@ Including dependency:
  - ESP8266 and ESP32 OLED driver for SSD1306 displays @ 4.6.1+sha.f90368e
 
 --------------------------------------------------------------------------------
-The following content is preservered from the <a href="https://github.com/ikostoski/esp32-i2s-slm">original</a> author, Ivan Kostoski
+The following is preserved from the <a href="https://github.com/ikostoski/esp32-i2s-slm">original</a> author, Ivan Kostoski
 --------------------------------------------------------------------------------
 
 # Sound Level Meter with Arduino IDE, ESP32 and I<sup>2</sup>S MEMS microphone
@@ -35,6 +35,6 @@ And the microphone response after equalization should look like:
 
 Theoretically, i.e. with factory calibrated ICS-4343x, this should get you ±1dB(A) measurement within 20Hz-20KHz range.
 
-The code in this repository is mostly intended as example how you can integrate resonable noise measurement (i.e. *L*<sub>Aeq</sub>, Equivalent Continuous Sound Level) in your projects. 
+The code in this repository is mostly intended as example how you can integrate resonable noise measurement (i.e. *L*<sub>Aeq</sub>, Equivalent Continuous Sound Level) in your projects.
 
 You can find a bit more information in my [hackday.io](https://hackaday.io/project/166867-esp32-i2s-slm) project.
